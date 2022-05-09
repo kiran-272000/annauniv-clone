@@ -1,0 +1,55 @@
+@import "../../index.scss";
+
+.container {
+  min-height: 70vh;
+}
+
+.tabs {
+  width: 90%;
+  margin: 1rem 3%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.tab {
+  background-color: $tabColor;
+  font-size: 12px;
+  margin: 2px;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.7rem;
+  border-radius: 10px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.active {
+  color: orange;
+}
+
+.main {
+  padding: 3rem 2rem;
+  width: 85%;
+  min-height: 30vh;
+  background-color: $contentColor;
+  margin: 3rem 5%;
+  margin-top: -2rem;
+  z-index: 5;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  box-shadow: 3px 3px 5px #cccccc;
+}
+
+h3 {
+  text-align: center;
+  color: #36b3b3;
+  padding: 0.5rem;
+}
+
+@media only screen and (max-width: 512px) {
+  .main {
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../index.scss";
+.scheduleTable {
+  text-align: left;
+  padding: 1rem 1rem;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.heading {
+  background-color: $tabColor;
+  color: white;
+  text-align: center;
+  border: 0.5px solid black;
+}
+
+.data {
+  border: 0.5px solid black;
+  color: #666666;
+  text-align: center;
+}
+
+.subject {
+  text-align: left;
+  padding-left: 1 rem;
+}

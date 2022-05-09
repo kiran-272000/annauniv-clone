@@ -1,0 +1,18 @@
+$primaryColor: rgb(55, 179, 179);
+$backgroundColor: #5c5b5b;
+$tabColor: #1c7575;
+$contentColor: #b2e2e2;
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $backgroundColor;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

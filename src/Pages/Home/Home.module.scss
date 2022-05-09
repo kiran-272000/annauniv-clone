@@ -1,0 +1,52 @@
+@import "../../index.scss";
+
+.home {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.formContainer {
+  height: 12rem;
+  width: 18rem;
+  background-color: $backgroundColor;
+  margin: 5px;
+  color: white;
+  padding: 0.5rem;
+}
+.formContainer h3 {
+  color: $primaryColor;
+}
+
+.input {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  lable {
+    text-align: right;
+  }
+  input {
+    margin-left: 4px;
+    width: 5rem;
+    height: 1rem;
+  }
+}
+
+.action {
+  display: flex;
+  margin-top: 1rem;
+  margin-right: 6px;
+  justify-content: flex-end;
+
+  button {
+    all: unset;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: $primaryColor;
+  }
+  button:hover {
+    padding: 3px;
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../index.scss";
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  background-color: $primaryColor;
+  border-radius: 10px;
+  flex-direction: row;
+  font-size: 10px;
+  font-weight: normal;
+  margin-bottom: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+.policy {
+  flex: 2;
+  text-align: center;
+}
+
+.designed {
+  flex: 7;
+  text-align: center;
+}
